@@ -18,6 +18,6 @@ int main(){
         cout<<"  " << *it<<endl;
     }
 
-    cout<<dq.at();
+   
     
 }
