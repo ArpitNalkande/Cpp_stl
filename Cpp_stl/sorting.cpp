@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// sort(a,a+n)       a = means address of first element 
+//                   a+n = means address of last element(n-1)+1  i.e a+n 
+
+
+
 int main(){
 
     vector<int> v;
@@ -24,9 +29,5 @@ int main(){
      for(  it = v.begin();it!= v.end();it++){
         cout<<" "<<*it;
      }
-
-
-    
-
 
 }
