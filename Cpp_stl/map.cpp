@@ -14,9 +14,11 @@ int main(){
     marksMap.insert({{"sundar",233},{"daya",47}});
 
   map<string,int>:: iterator itr;
-  for(itr=marksMap.begin();itr!=marksMap.end();itr++)
+
+  for(auto value:marksMap)
+//   for(itr=marksMap.begin();itr!=marksMap.end();itr++)
   {
-    cout<<(*itr).first<<"  "<<(*itr).second<<"\n";
+    cout<<value.first<<"  "<<value.second<<"\n";
   }
 
   cout<<"the size will be:"<<marksMap.size()<<" "<<marksMap.empty();
