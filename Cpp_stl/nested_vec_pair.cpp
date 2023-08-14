@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     
-    vector<int>v[10];
+    vector<int>v[10]
 
 
 }
