@@ -20,7 +20,7 @@ int main(){
     int max = *max_element(v.begin(),v.end());
     cout<<"The maximum element is:" <<max<<endl;
 
-    int sum  = accumulate(v.begin(),v.end(),0);  // Acclumulate will find the sum go given numbers 
+    int sum  = accumulate(v.begin(),v.end(),0);  // Acclumulate will find the sum of given numbers 
     cout<< "Sum of given numbers are:"<<sum<<endl;
 
     int cnt  = count(v.begin(),v.end(),9);
