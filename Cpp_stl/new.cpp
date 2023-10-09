@@ -7,7 +7,7 @@ int main()
     int n;
     cout << "ENter the value for n: ";
     cin >> n;
-    for (int i = 2; i <= n; i++)
+    for (int i = 1; i < n + 1; i++)
     {
         if (n % i == 0)
         {
@@ -15,7 +15,7 @@ int main()
             {
                 cout << "Prime number";
             }
-            else
+            if (n == 0 || n == 1)
             {
                 cout << "not prime";
                 break;
