@@ -9,7 +9,6 @@ int main(){
     dq.push_back(90);
     dq.push_back(78);
     dq.push_back(89);
-
     dq.push_front(69);
     
 
